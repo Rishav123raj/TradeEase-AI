@@ -1,0 +1,234 @@
+/* Main type div  */
+.types-div{
+    width: 70%;
+    margin: auto;
+}
+/* Types header div */
+.type-header{
+    width: auto;
+    display: flex;
+    margin-left: auto;
+}
+.type-list{
+    margin: auto;
+    padding: 10px 0 10px 0;
+}
+.type-list ul{
+    display: flex;
+}
+.type-list ul li{
+    list-style: none;
+}
+.type-list ul li:nth-child(2){
+    padding-left: 30px;
+}
+.type-list ul li:nth-child(3){
+    padding-left: 30px;
+}
+.type-list ul li a{
+    text-decoration: none;
+    color: #f5f5f5;
+    font-weight: bold;
+}
+.type-list ul li a:hover{
+    color: #d91443;
+}
+/* Invest div css */
+.invest-type-div{
+    display: flex;
+    background-color: #f8f6f5;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 30px 0 30px 0;
+}
+.type-section-col{
+    width: 50%;
+    height: auto;
+    padding: 0 0 20px 0;
+}
+.type-section-col-img{
+    width: 100%;
+    height: 100%;
+}
+.type-section-col-img img{
+    max-width: 100%;
+    height: 100%;
+}
+/* Types content main head */
+.types-head h1{
+    color: #d91443;
+    font-size: 28px;
+}
+/* Types content main paragraph */
+.types-para p{
+    font-size: 13px;
+    line-height: 1.5;
+    color:#3d3d3d;
+    padding: 10px 0 10px 0;
+}
+/* Idea types div */
+.idea-div-row{
+    display: block;
+    padding: 20px 0 0 0;
+}
+.idea-div-col{
+    width: 60%;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.idea-div-col h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.idea-div-col p{
+    font-size: 13px;
+    padding: 5px 0 5px 0;
+    color:#3d3d3d;
+    line-height: 1.5;
+}
+/* Trader div css */
+.trader-type-div{
+    display: flex;
+    background-color: #f8f6f5;
+    border-radius: 20px;
+    margin-top:40px;
+    padding: 30px 0 30px 5px;
+}
+/* Learn div css */
+.learn-type-div{
+    background-color: #f8f6f5;
+    border-radius: 20px;
+    margin:40px 0;
+    padding: 30px 20px;
+}
+.learn-type-div-head{
+    display: flex;
+    padding-bottom: 20px;
+}
+.learn-div-title{
+    margin: auto;
+    text-align: center;
+}
+/* learn div title head */
+.learn-div-title h1{
+    color: #d91443;
+    font-size: 28px;
+}
+/* learn div title  paragraph */
+.learn-div-title p{
+    font-size: 13px;
+    line-height: 1.5;
+    color:#3d3d3d;
+    padding: 10px 0 10px 0;
+}
+.learn-row{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.learning-col{
+    width: 49%;
+    height: auto;
+}
+.learning-col:nth-child(2){
+    margin-left:20px;
+}
+.card-left{
+    background-color: #d914421c;
+    border-radius: 20px;
+}
+.card-img-div{
+    width: 100%;
+    background-color: #d91443;
+    display: flex;
+    border-radius: 20px;
+    padding: 30px 0;
+}
+.card-img{
+    max-width: 200px;
+    margin: auto;
+}
+.card-img img{
+    width: 100%;
+}
+.card-title{
+    width: 100%;
+    padding: 35px 10px 35px 10px;
+}
+.card-title h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-title p{
+    font-size: 13px;
+    padding: 10px 0 0 0;
+}
+.card-right{
+    display: flex;
+    background-color: #d914421c;
+    border-radius: 20px;
+}
+.card-right:nth-child(2){
+    margin-top: 20px;
+}
+.card-img-1{
+    max-width: 70px;
+    margin: auto;
+}
+.card-img-1 img{
+    width: 100%;
+}
+
+
+/* Media query for resposive */
+@media (max-width:1014px){
+    .types-div{
+        width: 90%;
+    }
+    .invest-type-div{
+        display: block;
+    }   
+    .type-section-col{
+        width: 100%;
+    }
+    .type-section-col-img{
+        display: flex;
+    }
+    .type-section-col-img img{
+        max-width: 500px;
+    }
+    .trader-type-div{
+        display: block;
+    }  
+}
+@media (max-width:600px){
+    .types-head h1{
+        font-size: 24px;
+    }
+    .type-section-col-img img{
+        max-width: 300px;
+    }
+    .idea-div-col{
+        width: 100%;
+    }
+    .idea-div-col h2{
+        font-size: 16px;
+    }
+    .idea-div-col p{
+        font-size: 12px;
+    }
+    /* leaning div */
+    .learn-row{
+        display: block;
+    }
+    .learning-col{
+        width: 100%;
+    }
+    .card-left{
+        display: flex;
+    }
+    .learning-col:nth-child(2){
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}

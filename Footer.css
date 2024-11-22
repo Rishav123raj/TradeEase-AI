@@ -1,0 +1,120 @@
+/* Footers main container css */
+.footer-container{
+    width: 100%;
+    height: auto;
+    background-color: #ff4545;
+}
+/* footer table of address and there useful links  */
+.footer-links{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+.footer-row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.footer-col{
+    float: left;
+    width: 20%;
+    display: block;
+    padding: 20px 0 20px 20px;
+    height: auto;
+}
+/* footer logo in the first col */
+.footer-head{
+    padding: 0 0 20px 0;
+}
+.footer-address{
+    padding-bottom: 20px;
+    color: #fff;
+}
+.footer-address p{
+    font-size: 13px;
+}
+/* company links */
+.footer-col h3{
+    font-size: 14px;
+    color: #121212;
+    padding-bottom: 5px;
+}
+.footer col ul{
+    display: block;
+}
+.footer-col ul li{
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:flex;
+    align-items: center;
+}
+.footer-col a{
+    text-decoration: none;
+    font-size: 13px;
+    color:#fff;
+    transition: 0.5s;
+}
+.footer-col a:hover{
+    color: #779933;
+}
+.media-link{
+    padding-left: 5px;
+    transition: 0.5s;
+}
+/* Footers border div */
+.footer-border{
+    width: 90%;
+    border-bottom: 1px solid #dad8d8;
+    margin: auto;
+}
+/* Copyrights section */
+.copyrights{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.privacy a{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.privacy a:hover{
+    color: #fccb06;
+}
+.design p{
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+}
+/* media query for responsive */
+@media (max-width:1000px){
+    .footer-col{
+        width: 50%;
+    }
+}
+@media (max-width:600px){
+    .footer-links{
+        width: 90%;
+    }
+    .footer-col{
+        width: 100%;
+    }
+    .copyrights{
+        width: 95%;
+    }
+    .privacy a{
+        padding-right: 20px;
+        font-size: 13px;
+    }
+    .design p{
+        font-size: 13px;
+    }
+    .footer-border{
+        width: 100%;
+    }
+}

@@ -1,0 +1,20 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0092cc;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add box shadow for a raised effect */
+    z-index: 1000; /* Ensure the button is on top of other elements */
+}
+
+.scroll-to-top:hover {
+    background-color: #b70030; /* Darken button color on hover */
+}

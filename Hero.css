@@ -1,0 +1,208 @@
+.container {
+    width: 90%;
+    height: auto;
+    background-color: #2a47da38;
+    justify-content: center;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+.content{
+    width: 100%;
+    height: auto;
+    padding: 10px 0 10px 40px;
+    display: flex;
+}
+.content-left{
+    width: 100%;
+    padding: 50px 0 40px 0;
+}
+/* White background div */
+.primary-bg{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 50px 40px;
+    position: relative;
+}
+.primary-bg::before{
+    content: "";
+    display: inline-block;
+    background-color:#ff4545 ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    max-width: 610px;
+    border-radius: 12px;
+    transform: rotate(-8deg);
+    z-index: -1;
+}
+.content-heading{
+    padding:5px 0;
+}
+.content-heading h1{
+    color: #d91443;
+    font-size: 28px;
+}
+.content-des{
+    padding: 0 0 15px 0;
+}
+.content-des p{
+    font-size: 26px;
+    color: #d91443;
+}
+/* Content mobile number and sign-up div */
+.content-fl-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+/* Mobile number flex box */
+.fl-div-left{
+    border: 1px solid #000;
+    padding: 2px 3px 2px 10px;
+    border-radius: 20px;
+    width: 70%;
+    display: flex;
+}
+.fl-div-left span{
+    font-size: 14px;
+    background-color: #d9144221;
+    padding: 7px 10px;
+    border-radius: 20px;
+    color: #d91443;
+    font-weight: bold;
+}    
+.fl-div-left input{
+    border: none;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    padding-left: 10px;
+}
+.fl-div-left input::placeholder{
+    color: #d91443;
+}
+/* Sign-up button */
+.sign-up-sec{
+    color: #ffffff;
+    background-color: #d91443;
+    border: none;
+    padding: 10px 14px;
+}
+/* Content paragraph */
+.content-p{
+    padding: 15px 0;
+    max-width: 570px;
+}
+.content-p p{
+    font-size: 13px;
+    line-height: 1.5; 
+}
+/* Content detail in row */
+.content-row{
+    padding: 15px 0 5px 0;
+}
+.content-row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.content-col{
+    float: left;
+    width: 25%;   
+}
+.content-col h2{
+    font-size: 20px;
+    padding: 0 0 10px 0;
+}
+.content-col p{
+    font-size: 14px;
+    color: #3d3d3d;
+}
+
+/* Content right images */
+.content-right{
+    width:100%;
+}
+
+/* Media query */
+@media (max-width:1100px){
+    .content-heading h1{
+        font-size: 27px;
+    }
+    .content-des p{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:1014px){
+    .content{
+        display: block;
+        width: 90%;
+    }
+    .content-left{
+        padding: 20px;
+    }
+    .content-p{
+        max-width: 640px;
+    }
+    .primary-bg::before{
+        display: none;
+    }
+}
+
+@media (max-width:600px){
+    .content{
+        width: 100%;
+        padding: 30px 0 30px 0;
+    }
+    .content-heading h1{
+        font-size: 24px;
+    }
+    .content-des p{
+        font-size: 20px;
+    }
+    .fl-div-left{
+        width: 60%;
+        font-size: 13px;
+    }
+    .fl-div-left span{
+        font-size: 12px;
+    }
+    .fl-div-left input::placeholder{
+        font-size: 12px;
+    }
+    .sign-up-sec{
+        font-size: 12px;
+    }
+    .content-p p{
+        font-size: 12px;
+    }
+    .content-col{
+        width: 50%;   
+        padding: 0 0 20px 0;
+    }
+    .content-col h2{
+        font-size: 16px;
+    }
+    .content-col p{
+        font-size: 12px;
+        color: #3d3d3d;
+    }   
+}
+@media (max-width:467px){
+    .content-fl-div{
+        display: block;
+    }
+    .fl-div-left{
+        width: 100%;
+    }
+    .sign-up-sec{
+        margin-top: 10px;
+    }
+}
