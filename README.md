@@ -1,4 +1,4 @@
-TradeEase-AI
+# TradeEase-AI
 TradeEase-AI is a cutting-edge trading platform empowered by Generative AI to deliver insights and tools for financial market analysis. It allows users to explore compliance regulations, trading incentives, and financial documentation while providing an intuitive interface and Generative AI-driven assistance for modern traders.
 
 Features
