@@ -79,7 +79,7 @@ Deploy your project:
 8. Open a pull request on GitHub.
 9. License - This project is licensed under the MIT License.
 
-Contact
+# Contact
 For any queries, feel free to reach out:
 1. Email: rishav123raj@example.com
 2. GitHub: Rishav123raj
